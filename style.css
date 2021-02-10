@@ -131,7 +131,7 @@ hr{
     border-radius: 50%;
     border: 1px solid #E0E0E0;
     
- 
+  
 }
 .ellipse-min{
     width: 90px;
@@ -162,5 +162,49 @@ hr{
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
+}
+
+/*about-us*/
+.box{
+    background: #F6F6F8;
+    padding: 100px 405px 0 405px;
+    height: 797px;
+}
+.about-us{
+    display: flex;
+    justify-content: center; 
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 80px; 
+}
+.about-us-text{
+    padding-top: 51px;
+    margin-right: 121px;
+    text-align: left;
+    max-width: 489px;
+}
+.about-us-title{
+    text-align: left;
+    margin-bottom: 40px;
+}
+.about-us-subtitle{
+    text-align: left;
+    margin-bottom: 30px;
+}
+.in-detail{
+    color: #4985FF;
+}
+.in-detail:hover{
+    cursor: pointer;
+    color: blue;
+}
+.about-us-foto{
+
+}
+.about-us-numbers{
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 67px;
 }
 
